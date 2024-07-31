@@ -1,0 +1,508 @@
+.heather{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+#logo{
+  margin-left: 20px;
+  margin-right: 180px;
+}
+#button{
+  width: 130px;
+  height: 40px;
+  background-color: rgb(60, 120, 194);
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px solid rgb(60, 120, 194);
+  margin-right: 80px;
+  transition: 0.3s all ease-in-out;
+}
+#button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(60, 120, 194);
+}
+#titres{
+  display: contents;
+  justify-content: space-between;
+}
+#textecolor{
+  color: rgb(60, 120, 194);
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+  width: 100%;
+  height: 140vh;
+  background: linear-gradient(90deg,   rgb(176, 93, 254) 0%, rgb(94, 5, 247) 100%);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 0px 0px 35% 35%;
+}
+.box1{
+  margin-top: 150px;
+  width: 45%;
+}
+.box2{
+  margin-top: 250px;
+  width: 40%;
+}
+#titre1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  color: white;
+}
+#parag1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: lighter;
+}
+#button1{
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(0, 73, 232);
+  color: white;
+  border: none;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+#button2{
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+}
+.box3{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -15%;
+  margin-bottom: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 20px 0px;
+}
+.box3 #prix{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  justify-content: space-around;
+  font-family: Arial;
+  color: gray;
+  font-size: 8px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.box3 #titre{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.box3 #prix img{
+  width: 50px;
+}
+.box4{
+  width: 46%;
+  text-align: center;
+  margin-left: 26%;
+}
+.box4 #titre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.box4 #parag{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+.container2{
+  width: 100%;
+  height: 170vh;
+  background-color: rgb(246, 246, 246);
+  margin-top: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.box5{
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box5 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box5 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.box5 a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.big-box{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 3% 0 3%;
+}
+.container3{
+  width: 100%;
+  height: 118vh;
+  background-color: rgb(247, 255, 252);
+  margin-top: 70px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.box6{
+  width: 80%;
+  text-align: center;
+  margin: 0 10% 0 10%;
+}
+.container3 .box6 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  letter-spacing: 7px;
+}
+.container3 .box6 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.container3 .box6 #b1{
+  width: 150px;
+  height: 40px;
+  color: orangered;
+  border-radius: 20px;
+  background-color: rgba(255, 68, 0, 0.113);
+  border: none;
+  margin: 40px;
+}
+.container3 .box6 #b2{
+  width: 150px;
+  height: 40px;
+  color: blue;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 255, 0.113);
+  border: none;
+  margin: 40px;
+}
+.container3 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.container4 .box7 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 200%;
+  color: rgb(96, 0, 185);
+  font-weight: lighter;
+  margin-top: 10%;
+}
+.container4 .box8 #litbox{
+  width: 20%;
+}
+.container4 .box8{
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  margin: 10% 5% 0 5%;
+}
+.container4 .box8 #litbox h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  color: rgb(96, 0, 185);
+  font-weight: lighter;
+  text-decoration: none;
+}
+.container4 .box8 #litbox p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: rgb(117, 117, 117);
+  font-weight: lighter;
+  text-decoration: 0px;
+}
+.container5{
+  display: flex;
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.container5 .box9{
+  width: 50%;
+  margin: 5% 5% 0 5%;
+}
+.container5 .box9 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(96, 0, 185);
+  font-weight: lighter;
+}
+.container5 .box9 button{
+  width: 150px;
+  height: 40px;
+  color: blue;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 255, 0.113);
+  border: none;
+}
+.container6{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.box10{
+  width: 20%;
+  text-align: center;
+}
+.box10 #b1{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  color: blue;
+  font-weight: lighter;
+  border: 1px solid rgb(224, 224, 224);
+  margin-top: 80px;
+  padding-top: 50px;
+}
+.box10 #b2{
+  width: 100%;
+  height: 400px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.box10 #b2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.box10 #b2 sup{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.box10 #b2 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+}
+.box10 #b2 button{
+  width: 170px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  border-radius: 22px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  margin-top: 25px;
+}
+.box10d{
+  width: 20%;
+  text-align: center;
+}
+.box10d #b1{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  border: 1px solid rgb(224, 224, 224);
+  margin-top: 80px;
+  padding-top: 50px;
+  background-color: blue;
+}
+.box10d #b2{
+  width: 100%;
+  height: 400px;
+  border: 1px solid rgb(224, 224, 224);
+  background-color: blue;
+}
+.box10d #b2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.box10d #b2 sup{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.box10d #b2 p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+}
+.box10d #b2 button{
+  width: 170px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  border-radius: 22px;
+  background-color: orangered;
+  border: none;
+  margin-top: 25px;
+}
+.container7{
+  width: 100%;
+  height: 50vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.container7 #bx1{
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: white;
+  font-weight: lighter;
+  margin-top: 6%;
+}
+.container7 #bx2{
+  margin-top: 10%;
+}
+.container7 #bx2 button{
+  width: 220px;
+  height: 55px;
+  color: rgb(255, 255, 255);
+  border-radius: 27px;
+  background-color: orangered;
+  border: none;
+}
+
+@media (max-width: 500px){
+  body{
+    overflow-x: hidden;
+  }
+    .chalenge{
+      overflow-x: hidden;
+    }
+  .heather{
+    display: block;
+    margin-left: 10px;
+  }
+  #logo img{
+    margin: 0 auto;
+    width: 80px;
+  }
+  #titres{
+    display: block;
+    width: 60px;
+    font-size: 20px;
+  }
+  #logo{
+    margin: 15px auto;
+  }
+  #button{
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    margin: 15px auto;
+  }
+  #textecolor{
+    font-size: 15px;
+  }
+  .container1{
+    width: 80%;
+    height: 620px;
+    background: linear-gradient(90deg,   rgb(176, 93, 254) 0%, rgb(94, 5, 247) 100%);
+    display: block;
+    border-radius: 0px 0px 18% 18%;
+    justify-items: center;
+  }
+  .box2{
+    margin-top: 30px;
+  }
+  .box1{
+    margin-top: 20px;
+    width:70%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .box2 img{
+    width: 250px;
+    margin-left: 15%;
+  }
+  #titre1{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #parag1{
+    font-size: 12px;
+  }
+  .box3{
+    width: 80%;
+    height: 400px;
+    margin-left: 0;
+    margin-top: -130px;
+    margin-bottom: 120px;
+  }
+  .box3 #prix{
+    display: block;
+    font-size: 8px;
+    font-weight: 100;
+    line-height: 1px;
+    margin-bottom: 60px;
+  }
+  #prix1{
+    margin-bottom: 30px;
+  }
+  .box3 #titre{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .box3 #prix img{
+    width: 50px;
+
+  }
+  .box4 #titre{
+    font-size: 15px;
+  }
+  .box4 #parag{
+    font-size: 10px;
+  }
+  .container2{
+    width: 100%;
+    height: 150%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .big-box{
+    display: block;
+    margin: 0 auto;
+  }
+  .box5{
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom: 15px;
+  }
+  .box4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .container3 .box6 h1{
+    font-size: 30px;
+  }
+}
